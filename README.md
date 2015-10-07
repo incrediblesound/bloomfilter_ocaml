@@ -2,6 +2,21 @@
 
 bloom filter implementation in OCaml
 
+## To Build (MAC OS)
+Install the OCaml package manager
+```shell
+brew install opam
+```
+Then install ocamlfind
+```shell
+opam install ocamlfind
+```
+Run the shell script in this repository to build and run the tests
+```shell
+./build.sh
+./test
+```
+
 ##API
 
 ```ocaml
