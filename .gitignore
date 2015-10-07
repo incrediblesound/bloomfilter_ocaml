@@ -1,0 +1,8 @@
+*.cmx
+*.cmi
+*.txt
+*.o
+*.native
+first.ml
+test
+_build/
