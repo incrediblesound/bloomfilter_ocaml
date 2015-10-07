@@ -3,7 +3,8 @@ open Printf;;
 
 (* utility function for printing the output of contains *)
 let print_bool b =
-	if !b then print_string "True" else print_string "False";;
+	if !b then print_string "True" else print_string "False";
+	print_string "\n";;
 
 (* The make function just returns an array of zeros, a more full
   featured bloom filter would probably be a record or class, but I
